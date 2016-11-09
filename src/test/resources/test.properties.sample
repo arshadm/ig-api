@@ -1,0 +1,12 @@
+
+
+# IG API properties
+ig.api.domain.url=https://demo-api.ig.com/gateway/deal
+ig.api.dark.cluster=false
+
+# IG demo account
+ig.api.username=<IG ACCOUNT USERNAME>
+ig.api.password=<IG ACCOUNT PASSWORD>
+ig.api.key=<IG API KEY>
+
+
