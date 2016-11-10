@@ -24,4 +24,6 @@ lazy val igApi = (project in file(".")).
      (file("lib/") * "ls-client.jar").classpath
   )
 
+publishTo := Some(Resolver.file("file",  new File(Path.userHome.absolutePath+"/.m2/repository")))
+
 fork in run := true

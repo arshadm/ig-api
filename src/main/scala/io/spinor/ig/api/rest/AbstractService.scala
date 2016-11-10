@@ -43,7 +43,7 @@ abstract class AbstractService(config: Config, httpClient: HttpClient) {
   protected val objectMapper: ObjectMapper = new ObjectMapper()
 
   /**
-    * Execute a [[HttpGet]] for the specified uri and url parameters.
+    * Execute a HttpGet for the specified uri and url parameters.
     *
     * @param conversationContext the conversation context
     * @param version             the API version
@@ -61,7 +61,7 @@ abstract class AbstractService(config: Config, httpClient: HttpClient) {
   }
 
   /**
-    * Execute a [[HttpPost]] with the specified parameters.
+    * Execute a HttpPost with the specified parameters.
     *
     * @param conversationContext the conversation context
     * @param version             the API version
@@ -84,7 +84,7 @@ abstract class AbstractService(config: Config, httpClient: HttpClient) {
   }
 
   /**
-    * Execute a [[HttpPut]] with the specified parameters.
+    * Execute a HttpPut with the specified parameters.
     *
     * @param conversationContext the conversation context
     * @param version             the API version
@@ -107,7 +107,7 @@ abstract class AbstractService(config: Config, httpClient: HttpClient) {
   }
 
   /**
-    * Execute a [[HttpDelete]] for the specified uri and url parameters.
+    * Execute a HttpDelete for the specified uri and url parameters.
     *
     * @param conversationContext the conversation context
     * @param version             the API version
